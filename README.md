@@ -13,10 +13,10 @@ EOSIO DIDs are identifiable by their `eosio` method string and conform to the [G
 A DID that uses this method MUST begin with the following prefix: `did:eosio:`. Per the DID specification, this string 
 MUST be in lowercase. The remainder of the DID, after the prefix, is specified below:
 
-eosio-did = "did:eosio:" eosio-specific-idstring
-    	eosio-specific-idstring = [ eosio-network ":" ] eosio-account-name
+        eosio-did = "did:eosio:" eosio-specific-idstring
+        eosio-specific-idstring = [ eosio-network ":" ] eosio-account-name
     	eosio-network = "mainnet" / "kylin" / "jungle" / "telos"
-    	eosio-account-name = *as specifiedspecify by the EOSIO blockchain software*
+    	eosio-account-name = *as specified by the EOSIO blockchain software*
 
 
 ## Method CRUD Operations
