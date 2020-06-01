@@ -6,8 +6,7 @@ CONTRACT registry : public contract {
   public:
     using contract::contract;
 
-    ACTION registerdid(name owner, checksum256 ddoHash);
-    ACTION updatedid(name owner, checksum256 new_ddoHash);
+    ACTION updatedid(name owner, checksum256 ddoHash);
     
   private:
   //scope is owner

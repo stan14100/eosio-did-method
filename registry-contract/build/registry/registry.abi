@@ -18,7 +18,7 @@
             ]
         },
         {
-            "name": "registerdid",
+            "name": "updatedid",
             "base": "",
             "fields": [
                 {
@@ -30,28 +30,9 @@
                     "type": "checksum256"
                 }
             ]
-        },
-        {
-            "name": "updatedid",
-            "base": "",
-            "fields": [
-                {
-                    "name": "owner",
-                    "type": "name"
-                },
-                {
-                    "name": "new_ddoHash",
-                    "type": "checksum256"
-                }
-            ]
         }
     ],
     "actions": [
-        {
-            "name": "registerdid",
-            "type": "registerdid",
-            "ricardian_contract": ""
-        },
         {
             "name": "updatedid",
             "type": "updatedid",
