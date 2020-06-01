@@ -19,7 +19,7 @@ eosio-did = "did:eosio:" eosio-specific-idstring
     	eosio-account-name = *as specifiedspecify by the EOSIO blockchain software*
 
 
-##Method CRUD Operations
+## Method CRUD Operations
 ### Create / Register
 In order to create an EOSIO DID, an account on a supported EOSIO blockchain must exist. At the moment there are numerous processes for the creation of such an account. EOSIO account creation is outside the scope of this document.
 
