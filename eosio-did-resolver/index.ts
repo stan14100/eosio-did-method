@@ -3,7 +3,7 @@ import RegistryContract from "eosio-did-registry-contract";
 import { Ipfs } from "./ipfs";
 
 const PROVIDER_URI = 'https://jungle2.cryptolions.io:443';
-const IPFS_ENDPOINT = 'https://eosio.ipfs.com:443'
+const IPFS_ENDPOINT = 'https://cometogether.network:443'
 
 export function getResolver(providerUri: string = PROVIDER_URI, ipfsHost: string = IPFS_ENDPOINT) {
   const registryContract = new RegistryContract(providerUri)

@@ -5,7 +5,7 @@ import { IDidDocument } from "@decentralized-identity/did-common-typescript"
 
 const COVID19_CERT_TYPE = "Covid19TestsResults"
 export const jungle_api =  'https://jungle2.cryptolions.io:443'
-export const cometogetherIpfsHost = 'https://cometogeher.com:443'
+export const cometogetherIpfsHost = 'https://cometogeher.network:443'
 
 export function getRegistry(providerUrl: string = jungle_api ,ipfsHost: string = cometogetherIpfsHost) {
     const registryContract = new RegistryContract(providerUrl)

@@ -11,7 +11,7 @@ export class Ipfs {
   /**
    * Creates an instance of {@link Ipfs}
    * @param host - Remote ipfs gateway url
-   * @example `const ipfs = new Ipfs('https://cometogether.com:443')`
+   * @example `const ipfs = new Ipfs('https://cometogether.live:443')`
    */
 
   constructor(host: string) {
