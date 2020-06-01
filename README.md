@@ -19,6 +19,7 @@ MUST be in lowercase. The remainder of the DID, after the prefix, is specified b
         eosio-network = "mainnet" / "kylin" / "jungle" / "telos"
         eosio-account-name = *as specified by the EOSIO blockchain software*
 
+*At the moment the did-registry-contract is deployed only on the jungle testnet. That's why the `eosio-network` is not currently part of the DID.*
 
 ## Method CRUD Operations
 ### Create / Register
