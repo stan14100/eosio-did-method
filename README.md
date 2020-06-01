@@ -2,6 +2,7 @@
 The specification of the EOSIO DID-method.
 Vo.1, Stavros Antoniadis & Andreas Kouloumos, ComeTogether
 ## Introduction
+Smart contract which DIDs are based on is under 'didregistry1' account name, currently deployed on the Jungle EOSIO Testnet.
 ### EOSIO
 EOSIO is a next-generation, open-source blockchain protocol with industry-leading transaction speed and flexible utility. Introduced in May 2017, it has since been widely recognized as the first performant blockchain platform for businesses across the world.
 ### IPFS
