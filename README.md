@@ -15,8 +15,8 @@ MUST be in lowercase. The remainder of the DID, after the prefix, is specified b
 
         eosio-did = "did:eosio:" eosio-specific-idstring
         eosio-specific-idstring = [ eosio-network ":" ] eosio-account-name
-    	eosio-network = "mainnet" / "kylin" / "jungle" / "telos"
-    	eosio-account-name = *as specified by the EOSIO blockchain software*
+        eosio-network = "mainnet" / "kylin" / "jungle" / "telos"
+        eosio-account-name = *as specified by the EOSIO blockchain software*
 
 
 ## Method CRUD Operations
