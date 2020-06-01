@@ -11,7 +11,7 @@ export class Ipfs {
   /**
    * Creates an instance of {@link Ipfs}
    * @param host - Remote ipfs gateway url
-   * @example `const ipfs = new Ipfs('https://eosio.ipfs.com:443')`
+   * @example `const ipfs = new Ipfs('https://cometogether.com:443')`
    */
 
   constructor(host: string) {
@@ -25,7 +25,7 @@ export class Ipfs {
    */
 
   public async derefJSON(hash: string): Promise<object> {
-    const endpoint = `${ this._endpoint }/path/to/ipfs/${ hash }`
+    const endpoint = `${ this._endpoint }/api/ipfs/cat${ hash }`
     const res = await this.getRequest(endpoint)
     return res.data.json()
   }
