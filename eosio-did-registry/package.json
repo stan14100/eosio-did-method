@@ -17,7 +17,7 @@
     "@decentralized-identity/did-common-typescript": "^0.1.19",
     "@types/detect-node": "^2.0.0",
     "@types/node": "^14.0.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "eosio-did-registry-contract": "0.0.1",
     "form-data": "^3.0.0",
     "typescript": "^3.9.3"
